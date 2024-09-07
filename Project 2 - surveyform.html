@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title id="survery-form">Survery Form</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+
+    <body>
+          
+             
+    <!-- User story #1-->    
+        <h1 id="survery-form"><center>Survery Form</center></h1> 
+
+    <!-- User story #2-->  
+        <p id="description"><center>How many cups of coffee do you drink in a day? ☕︎ </center></p>
+    
+    <!-- User story #3--> 
+            <form method="get id="survery-form">
+    
+    <!-- User story #4 and #10 and #11--> 
+                <label for="name" id="name-label"> Name:</label>
+                <input class="w3-input" type="text" name="name-label" placeholder="Enter your name" required> <br> <br>
+                
+    <!-- User story #5 and #6 and #10 and #11--> 
+                <label for="email" id="email-label"> Email: </label>
+                <input class="w3-input" type="email" name="email-label" placeholder="Enter your email" required> <br> <br>
+
+    <!-- User story #7 and #8 and #9 and #10 and #11--> 
+                <label for="age" id="number-label"> Age: </label>
+                <input class="w3-input "type="number" name="number-label" min="0" max="100" placeholder="Age" required> <br> <br>   
+
+    <!-- User story #7 and #8 and #9 and #10 and #11-->  
+                <label for="number-coffee" id="number-coffee"> How many cups of coffee do you drink in a day?  </label>
+                <input type="number" name="number-label" min="0" max="10" placeholder=" - " Required> <br> <br>  
+
+    <!-- User story #13-->
+                <label for="condition">How do you like your Coffee? </label>
+                <input class="w3-radio" type="radio" name="condition" value="iced"> Iced
+                <input class="w3-radio" type="radio" name="condition" value="hot"> Hot
+                <input class="w3-radio" type="radio" name="condition" value="pinapapak"> Pinapapak
+                <br> <br>
+
+
+    <!-- User story #12-->
+                <label for="coffeebean" id="dropdown">Coffe Bean: </label>
+                <select class="w3-select name="coffeebean">
+                    <option selected disabled> Select an option</option>
+                    <option class="w3-check" value="arabica">Arabica</option>
+                    <option class="w3-check" value="robusta">Robusta</option>
+                    <option class="w3-check" class="w3-check" value="Liberica">Liberica</option>
+                    <option class="w3-check" value="Excelsa">Excelsa</option>
+    
+                </select> <br> <br>
+                     
+    <!-- User story #14-->            
+                <label for="addon">Add on(s):</label>
+                <input type="checkbox" name="addon" value="Espresso"> Espresso
+                <input type="checkbox" name="addon" value="Long black"> Long black
+                <input type="checkbox" name="addon" value="Latte"> Latte
+                <input type="checkbox" name="addon" value="Extra Ice"> Extra Ice <br> <br>
+                <br> <br>
+
+     <!-- User story #15-->
+                <label for="comment"> Comment(s) or Suggestion(s): </label>
+                <textarea class="w3-input" name="comment" maxlength="20" rows="3" cols="15" required></textarea> <br> <br>
+
+    <!-- User story #16 and #17-->
+               <center> <input type="submit" value="Submit all my inputs"></center>
+
+
+
+            </form>
+
+    </body>
