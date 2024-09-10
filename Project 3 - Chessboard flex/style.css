@@ -1,0 +1,56 @@
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+   
+}
+
+.gray, .black{
+    flex: 50%;
+    height: 50px;
+
+}
+
+.gray
+{
+    background-color: white;
+}
+
+.black
+{
+    background-color: green;
+}
+
+.row1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+
+
+.row2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+
+}
+.row3
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.row4
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    
+}
+
