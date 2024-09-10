@@ -8,7 +8,7 @@
    
 }
 
-.gray, .black{
+.white, .green{
     flex: 50%;
     height: 50px;
     display: flex;
@@ -17,12 +17,12 @@
 
 }
 
-.gray
+.white
 {
     background-color: white;
 }
 
-.black
+.green
 {
     background-color: green;
 }
