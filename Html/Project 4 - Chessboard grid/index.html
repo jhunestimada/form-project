@@ -1,121 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="111.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Chessboard Grid Project</title>
+</head>
+<body>
+    
+    <div class="container" id="background">
 
-        <title> Chessboard Flex Project </title>
-
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-       
-
-    </head>
-
-        <body>
-        
-        
         <!-- Chessboard -->
-        <div class="container">
+        <div class="chessboard">
 
-              <!-- <div class="row1"> -->
-                <div class="white"> <i class="fa-solid fa-chess-rook"></i>  </div>   
-                <div class="green"> <i class="fa-solid fa-chess-knight"></i>   </div> 
-                <div class="white"> <i class="fa-solid fa-chess-bishop"></i> </div>
-                <div class="green"><i class="fa-solid fa-chess-queen"></i> </div>   
-                <div class="white"> <i class="fa-solid fa-chess-king"></i> </div>
-                <div class="green"><i class="fa-solid fa-chess-bishop"></i> </div>
-                <div class="white"> <i class="fa-solid fa-chess-knight"></i> </div>
-                <div class="green"> <i class="fa-solid fa-chess-rook"></i> </div>  
-              
-              
-         <div class="container2">
-              
-                <div class="green"> <i class="fa-solid fa-chess-pawn"></i>
-                <div class="white">  <i class="fa-solid fa-chess-pawn"></i> 
-
-         </div>
-
-
-
-                <!-- <div class="green"> <i class="fa-solid fa-chess-pawn"></i>  </div>    
-                <div class="white">  <i class="fa-solid fa-chess-pawn"></i>   </div> -->
-                                  
-                  <!-- <div class="white">  </div> <div class="green"> </div>
-                  <div class="green"> </div> <div class="white">  </div>
-                  <div class="white">  </div> <div class="green"> </div>
-                  <div class="green"> </div> <div class="white">  </div>
-
-                  <div class="white"><i class="fa-regular fa-chess-pawn"></i> </div>
-                  <div class="green"><i class="fa-regular fa-chess-pawn"></i></i> </div>
-                  <div class="green"> <i class="fa-regular fa-chess-rook"></i></div>
-                  <div class="white"> <i class="fa-regular fa-chess-knight"></i> </div>
-              </div>
-        
-              
-              <div class="row2">
             
-                <div class="white"> <i class="fa-solid fa-chess-bishop"></i> </div>              
-                <div class="green"><i class="fa-solid fa-chess-queen"></i> </div>   
-                <div class="green"> <i class="fa-solid fa-chess-pawn"></i></div>                 
-                <div class="white"><i class="fa-solid fa-chess-pawn"></i> </div>
-                
-                <div class="white">  </div><div class="green"> </div>
-                <div class="green"> </div> <div class="white">  </div>
-                <div class="white">  </div> <div class="green"> </div>
-                <div class="green"> </div> <div class="white">  </div>
-
-                <div class="white"> <i class="fa-regular fa-chess-pawn"></i> </div>
-                <div class="green"> <i class="fa-regular fa-chess-pawn"></i></div>            
-                <div class="green"> <i class="fa-regular fa-chess-bishop"></i> </div>              
-                <div class="white"> <i class="fa-regular fa-chess-queen"></i></div>
-                
-              </div>
-
-              <div class="row3">                
-                <div class="white"> <i class="fa-solid fa-chess-king"></i> </div>               
-                <div class="green"><i class="fa-solid fa-chess-bishop"></i> </div>                  
-                <div class="green"><i class="fa-solid fa-chess-pawn"></i> </div> 
-                <div class="white"> <i class="fa-solid fa-chess-pawn"></i> </div>
-
-                
-                <div class="white">  </div><div class="green"> </div>
-                <div class="green"> </div> <div class="white">  </div>
-                <div class="white">  </div> <div class="green"> </div>
-                <div class="green"> </div> <div class="white">  </div>
-
-                <div class="white"><i class="fa-regular fa-chess-pawn"></i></div>
-                <div class="green"> <i class="fa-regular fa-chess-pawn"></i> </div>
-                <div class="green"> <i class="fa-regular fa-chess-king"></i></div>              
-                <div class="white"><i class="fa-regular fa-chess-bishop"></i>  </div>
-
-            </div>
-      
-            <div class="row4">
+            <div class="tile white"><i class="fa-solid fa-chess-rook"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-knight"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-bishop"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-queen"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-king"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-bishop"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-knight"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-rook"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-solid fa-chess-pawn"></i></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile green"></div>
+            <div class="tile white"></div>
+            <div class="tile white"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-pawn"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-rook"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-knight"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-bishop"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-queen"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-king"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-bishop"></i></div>
+            <div class="tile green"><i class="fa-regular fa-chess-knight"></i></div>
+            <div class="tile white"><i class="fa-regular fa-chess-rook"></i></div>
             
-              <div class="white"> <i class="fa-solid fa-chess-knight"></i> </div>
-               <div class="green"> <i class="fa-solid fa-chess-rook"></i> </div>   
-              <div class="green"><i class="fa-solid fa-chess-pawn"></i> </div> 
-              <div class="white"><i class="fa-solid fa-chess-pawn"></i>  </div>
-
-              <div class="white">  </div><div class="green"> </div>
-              <div class="green"> </div> <div class="white">  </div>
-              <div class="white">  </div> <div class="green"> </div>
-              <div class="green"> </div> <div class="white">  </div>
-
-
-              <div class="white"> <i class="fa-regular fa-chess-pawn"></i> </div>
-              <div class="green"><i class="fa-regular fa-chess-pawn"></i></div>
-              <div class="green"><i class="fa-regular fa-chess-knight"></i> </div> 
-              <div class="white"> <i class="fa-regular fa-chess-rook"></i>  </div>
-              
             
-            </div>
-         -->
-        
-          </div>
-        
-        
-            </body>
-
-
+        </div>
+    </div>
+</body>
 </html>
