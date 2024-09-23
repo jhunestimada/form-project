@@ -23,6 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: xx-large; 
+    width: 560;
+    height: 315;
 }
 
 .white {
