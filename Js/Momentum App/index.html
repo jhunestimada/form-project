@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="js-clock">
+    <h1></h1>
+    </div>
+
+    <div class="container">
+
+  <section class="left">
+ 
+  <div id="greeting">  </div> 
+  <input type="text" id="name" placeholder="Enter name here" value=""><br/>
+  <button class="button-89" id="addButton" onclick="addName()">Add Name</button>   <button class="button-90" id="editButton">Edit Name</button> 
+
+</section>
+</div>
+
+
+<div class="container">
+<section class="right">
+
+  
+    <input type="text" id="taskInput" placeholder="Add new task"> 
+    <br/><br/><button class="button-100" id="taskButton">Add</button>
+     <div id="taskList"></div>
+    <ul class="js-toDoList"></ul>
+  
+  </section>
+</div>
+
+<br/><br/><br/><br/><br/><br/><br/>
+  <section class="center">
+    <h1>Quote of the day</h1>
+    <div id="quote" class="quote"></div>
+    <br/><textarea type="text" id="quoteText" placeholder="Add Quote Here"></textarea>
+    <br/><button class="button-101" id="quoteButton" onclick="hideQuote()">Add Quote</button> 
+    <br/><button class="button-102" id="quoteButton2" onclick="hideQuote()">Add Quote</button>  
+  </section>
+
+  <script type="text/javascript" src="script.js"> </script>
+  <script type="text/javascript" src="background.js"> </script>
+
+</body>
+</html>
