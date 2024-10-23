@@ -31,6 +31,7 @@
 }
 
 iframe {
+    display: flex;
     max-width: 30rem;
     justify-content: center;
     align-items: center;  
@@ -147,22 +148,29 @@ footer{
 }
 
 
-.dark-mode {
+.dark-mode 
 
- 
-
-.item
 {
-    color: rgb(250, 7, 7);
-    padding: 1rem;
-    height: auto;
-    margin-top: 30px;
-    border: 5px solid rgb(251, 1, 1);
-     max-width: 80%;
-    margin: 0 auto;
-    gap: 16px; 
-    background-color: black;
+   background-color: black;
+   
+    .item{
+      color: rgb(250, 7, 7);
+      border: 5px solid rgb(251, 1, 1);
+   
+         } 
+   
+
 }
+
+.pic-ctn {
+    display: flex;
+    width: 69.5vw;
+    height: 150px;
+    position: relative;
+    margin-top: 2vh;
+    
+
+  }
 
 
 
