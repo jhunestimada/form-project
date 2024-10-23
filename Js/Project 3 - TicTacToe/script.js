@@ -86,6 +86,7 @@ const undoMove = () => {
     infoDisplay.textContent = "It is now " + currentPlayer + "'s turn";
     gameActive = true; 
     renderBoard();
+    checkGameStatus();
     console.log(board);
     console.log(moveHistory);
     console.log(redoHistory);
@@ -103,6 +104,7 @@ const redoMove = () => {
     infoDisplay.textContent = "It is now " + currentPlayer + "'s turn";
     gameActive = true; 
     renderBoard();
+    checkGameStatus();
     console.log(board);
     console.log(moveHistory);
     console.log(redoHistory);
